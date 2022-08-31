@@ -15,3 +15,7 @@ Download weights directory from [Google Drive](https://drive.google.com/drive/fo
 ```
 python main_gui.py
 ```
+
+## References
+- [yolo v3](https://github.com/ultralytics/yolov3)
+- [SAN](https://github.com/D-X-Y/landmark-detection/tree/master/SAN)
