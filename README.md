@@ -17,5 +17,5 @@ python main_gui.py
 ```
 
 ## References
-- [yolo v3](https://github.com/ultralytics/yolov3)
+- [Yolo v3](https://github.com/ultralytics/yolov3)
 - [SAN](https://github.com/D-X-Y/landmark-detection/tree/master/SAN)
