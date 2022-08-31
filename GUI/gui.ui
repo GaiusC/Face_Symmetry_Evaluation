@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1031</width>
+    <height>730</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1031</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(163, 163, 163);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>240</y>
+          <width>171</width>
+          <height>244</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	background-color: rgb(255, 85, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Select Person</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>483</y>
+          <width>171</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	background-color: rgb(255, 85, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Results</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>171</width>
+          <height>244</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	background-color: rgb(255, 85, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Select Image</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>5</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(220, 220, 220);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>851</width>
+          <height>721</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <widget class="QWidget" name="page">
+         <widget class="QPushButton" name="pushButton_p12">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>30</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Face Detection</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_p11">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>30</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select File</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>30</y>
+            <width>461</width>
+            <height>31</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_p13">
+          <property name="geometry">
+           <rect>
+            <x>720</x>
+            <y>660</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Next</string>
+          </property>
+         </widget>
+         <widget class="QGraphicsView" name="graphicsView_p1">
+          <property name="geometry">
+           <rect>
+            <x>89</x>
+            <y>100</y>
+            <width>661</width>
+            <height>550</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_p11">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>70</y>
+            <width>661</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>9</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_2">
+         <widget class="QPushButton" name="pushButton_p21">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>660</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Previous</string>
+          </property>
+         </widget>
+         <widget class="QGraphicsView" name="graphicsView_p2">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>100</y>
+            <width>500</width>
+            <height>500</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QListView" name="listView">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>100</y>
+            <width>256</width>
+            <height>500</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_p22">
+          <property name="geometry">
+           <rect>
+            <x>720</x>
+            <y>660</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Start Evaluation</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_p21">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>70</y>
+            <width>251</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>9</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Select 1 from %d face(s)</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_3">
+         <widget class="QGraphicsView" name="graphicsView_p3">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>400</width>
+            <height>400</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_p32">
+          <property name="geometry">
+           <rect>
+            <x>720</x>
+            <y>660</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Retry</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_p31">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>660</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Previous</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget" native="true">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>20</y>
+            <width>391</width>
+            <height>391</height>
+           </rect>
+          </property>
+          <widget class="QLabel" name="label_R_2">
+           <property name="geometry">
+            <rect>
+             <x>310</x>
+             <y>0</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Difference</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_MC_L">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>250</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_BH_R">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>50</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_EH_L">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>100</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_EA_R">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>200</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_BH_L">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>50</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_EA_D">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>200</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_MTA_L">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>350</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>8</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>--</string>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_EW_L">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>150</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_EW_R">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>150</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_MTA_R">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>350</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>--</string>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_EA_L">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>200</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_L">
+           <property name="geometry">
+            <rect>
+             <x>110</x>
+             <y>0</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Left</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_EW_D">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>150</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_BH_D">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>50</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_EH_R">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>100</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_MC_R">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>250</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_R">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>0</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Right</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_EH_D">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>100</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_MC_D">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>250</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_MTA_D">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>350</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_MA_R">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>300</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_MA_L">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>300</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>8</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_MA_D">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>300</y>
+             <width>91</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_BH">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>50</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Brows Height:</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_EH">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>100</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Eyes Height:</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_EW">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>150</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Eyes Width:</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_EA">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>200</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Eyes Area:</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_MC">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>250</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Mouth Corner:</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_MA">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>300</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Mouth Area:</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_MTA">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>350</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Mouth Angle:</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_Re">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>0</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Restore</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_2" native="true">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>470</y>
+            <width>631</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <widget class="QLabel" name="label_Eva">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>40</y>
+             <width>171</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Symmetry Index:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_Eva_E">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>40</y>
+             <width>121</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_Eva_M">
+           <property name="geometry">
+            <rect>
+             <x>500</x>
+             <y>0</y>
+             <width>121</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Mouth</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_Eva_EB">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>40</y>
+             <width>121</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_Eva_M">
+           <property name="geometry">
+            <rect>
+             <x>500</x>
+             <y>40</y>
+             <width>121</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_Eva_EB">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>0</y>
+             <width>121</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Eyebrows</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_Eva_E">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>0</y>
+             <width>121</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Eyes</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QLabel" name="label_p31">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>580</y>
+            <width>611</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>The face seems SYMMETRICAL !</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

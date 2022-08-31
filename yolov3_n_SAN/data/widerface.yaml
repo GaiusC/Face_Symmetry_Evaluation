@@ -1,0 +1,7 @@
+path: ../datasets/Widerface
+train: images/train
+val: images/valid
+test: images/test
+
+nc: 1
+names: ['face']
